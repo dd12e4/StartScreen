@@ -1,4 +1,15 @@
 body {
   margin: 0;
-  background-color: yellowgreen;
+}
+
+main {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
